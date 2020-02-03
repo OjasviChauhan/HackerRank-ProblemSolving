@@ -1,14 +1,11 @@
 #include <stdlib.h>
-
-
 long k=0;
 long aVeryBigSum(int ar_count, long* ar)
 {
     for(int i=0;i<ar_count;i++)
-    {k=k+ar[i];}
+        k=k+ar[i];
     return k;
 }
-
 int main()
 {
   int ar_count;
