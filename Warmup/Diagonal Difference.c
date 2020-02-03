@@ -15,7 +15,6 @@ int diagonalDifference(int arr_rows, int arr_columns, int** arr)
  else
  return p;
 }
-
 int main()
 {
     int n,i;
