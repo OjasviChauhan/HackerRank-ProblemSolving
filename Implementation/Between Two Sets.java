@@ -17,8 +17,7 @@ class Solution{
     static int getTotalX(int a[], int b[]){
         int i,j,k,count=0,result=0;
         for(i=a[a.length-1]; i<=b[0]; i++){
-           for(j=0;j<a.length;j++)
-           {
+           for(j=0;j<a.length;j++){
                if(i % a[j] == 0)
                count++;
            }
